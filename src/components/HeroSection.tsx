@@ -1,6 +1,8 @@
 "use client";
 
-import Image from "next/image";
+import { Img as Image } from "@/components/Img";
+
+const bp = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -131,7 +133,7 @@ export function HeroSection() {
                 className="hidden md:block absolute inset-y-0 right-0 w-1/2"
                 style={{
                   background: "#FF8672",
-                  backgroundImage: "url('/images/hero-bg-decorative.png')",
+                  backgroundImage: `url('${bp}/images/hero-bg-decorative.png')`,
                   backgroundRepeat: "no-repeat",
                   backgroundPosition: "right bottom",
                 }}

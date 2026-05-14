@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
+import { Img as Image } from "@/components/Img";
 import { Menu, X, Search, ChevronDown } from "lucide-react";
 
 export function Navbar() {

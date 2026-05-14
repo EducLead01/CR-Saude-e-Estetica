@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { Img as Image } from "@/components/Img";
 
 export function NewsletterSection() {
   return (
