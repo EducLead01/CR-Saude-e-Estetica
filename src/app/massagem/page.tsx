@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { NewsletterSection } from "@/components/NewsletterSection";
 import { FAQSection } from "@/components/FAQSection";
@@ -14,7 +13,6 @@ export const metadata: Metadata = {
 export default function MassagemCorporalPage() {
   return (
     <>
-      <Navbar />
       <main>
         <MassagemHero />
 
