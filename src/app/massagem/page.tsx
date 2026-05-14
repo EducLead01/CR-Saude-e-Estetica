@@ -3,6 +3,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { NewsletterSection } from "@/components/NewsletterSection";
 import { FAQSection } from "@/components/FAQSection";
+import { MassagemHero } from "@/components/MassagemHero";
 
 export const metadata: Metadata = {
   title: "Massagem Corporal | CR Saúde e Estética",
@@ -15,57 +16,7 @@ export default function MassagemCorporalPage() {
     <>
       <Navbar />
       <main>
-        {/* Hero da página */}
-        <section
-          className="py-16 md:py-24"
-          style={{ background: "rgb(174,24,87)" }}
-        >
-          <div
-            className="mx-auto w-full px-4"
-            style={{ maxWidth: 1168 }}
-          >
-            <p
-              className="text-xs uppercase tracking-widest mb-3"
-              style={{ color: "rgba(255,255,255,0.7)" }}
-            >
-              Tratamentos Corporais
-            </p>
-            <h1
-              className="font-semibold leading-tight text-white"
-              style={{ fontSize: "clamp(32px, 5vw, 52px)", maxWidth: 600 }}
-            >
-              Massagem Corporal
-            </h1>
-            <p
-              className="mt-4 text-white/80"
-              style={{ fontSize: 16, maxWidth: 520, lineHeight: 1.7 }}
-            >
-              Relaxe, revitalize e cuide do seu corpo com nossa massagem corporal
-              terapêutica. Técnicas especializadas para aliviar tensões, melhorar
-              a circulação e proporcionar bem-estar completo.
-            </p>
-            <div className="flex flex-wrap gap-3 mt-8">
-              <a
-                href="#agendar"
-                className="text-sm font-medium text-white px-6 py-3 transition-opacity hover:opacity-85"
-                style={{ background: "rgb(229,67,96)", borderRadius: 9999 }}
-              >
-                Agendar Agora
-              </a>
-              <a
-                href="#beneficios"
-                className="text-sm font-medium px-6 py-3 transition-colors"
-                style={{
-                  color: "white",
-                  border: "1.5px solid rgba(255,255,255,0.5)",
-                  borderRadius: 9999,
-                }}
-              >
-                Ver Benefícios
-              </a>
-            </div>
-          </div>
-        </section>
+        <MassagemHero />
 
         {/* O que é */}
         <section className="py-14 bg-white">
