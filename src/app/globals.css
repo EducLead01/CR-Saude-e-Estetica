@@ -1,0 +1,140 @@
+@import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+
+@theme {
+  /* Onodera Brand Colors */
+  --color-primary: rgb(229, 67, 96);
+  --color-primary-hover: rgb(213, 62, 89);
+  --color-secondary: rgb(174, 24, 87);
+  --color-accent: #FF8672;
+  --color-accent-light: #FFF2F0;
+  --color-accent-border: #F2D9DD;
+  --color-purple: rgb(91, 93, 166);
+  --color-purple-dark: #6C3175;
+
+  /* Text */
+  --color-text-primary: rgb(78, 75, 74);
+  --color-text-secondary: rgb(118, 113, 112);
+  --color-text-muted: rgb(168, 165, 163);
+
+  /* Backgrounds */
+  --color-bg-header: rgb(250, 250, 250);
+  --color-bg-footer: rgb(174, 24, 87);
+  --color-bg-newsletter: rgb(231, 72, 30);
+
+  /* Borders */
+  --color-border-default: rgb(243, 242, 242);
+  --color-border-pink: #F2D9DD;
+
+  /* Stars */
+  --color-stars: rgb(255, 193, 7);
+
+  /* Font */
+  --font-sans: "Helvetica Neue", Helvetica, Arial, ui-sans-serif, system-ui, sans-serif;
+
+  /* Layout */
+  --max-container: 1168px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, ui-sans-serif, system-ui, sans-serif;
+  color: rgb(78, 75, 74);
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  width: 100%;
+  max-width: 1168px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* Swiper pagination dots — Onodera style */
+.swiper-pagination-bullet {
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 9999px !important;
+  background-color: rgb(206, 207, 240) !important;
+  opacity: 1 !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: rgb(91, 93, 166) !important;
+}
+
+/* Swiper arrow colors */
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgb(231, 72, 30) !important;
+}
+
+/* Scrollbar hide */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Pill button base */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 9999px;
+  background-color: rgb(229, 67, 96);
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  white-space: nowrap;
+}
+.btn-primary:hover {
+  background-color: rgb(213, 62, 89);
+}
+
+.btn-outline-white {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 9999px;
+  background-color: transparent;
+  color: white;
+  border: 1.5px solid white;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  white-space: nowrap;
+}
+.btn-outline-white:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+/* FAQ accordion arrow */
+@keyframes accordion-open {
+  from { height: 0; opacity: 0; }
+  to { height: var(--radix-accordion-content-height); opacity: 1; }
+}
+@keyframes accordion-close {
+  from { height: var(--radix-accordion-content-height); opacity: 1; }
+  to { height: 0; opacity: 0; }
+}
