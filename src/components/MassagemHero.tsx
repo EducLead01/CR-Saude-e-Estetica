@@ -34,10 +34,11 @@ const slides = [
 
 export function MassagemHero() {
   return (
-    <div className="relative w-full" style={{ height: "90vh", minHeight: 520, maxHeight: 800 }}>
+    <div className="massagem-hero relative w-full" style={{ height: "90vh", minHeight: 520, maxHeight: 800 }}>
       <Swiper
         modules={[Autoplay, Pagination, EffectFade]}
         effect="fade"
+        slidesPerView={1}
         autoplay={{ delay: 4500, disableOnInteraction: false }}
         pagination={{ clickable: true }}
         loop
