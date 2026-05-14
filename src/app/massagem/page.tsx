@@ -16,6 +16,24 @@ export default function MassagemCorporalPage() {
       <main>
         <MassagemHero />
 
+        {/* Ticker */}
+        <div style={{ background: "linear-gradient(90deg, rgb(174,24,87), rgb(229,67,96))", overflow: "hidden", padding: "11px 0", whiteSpace: "nowrap" }}>
+          <style>{`
+            @keyframes ticker-massagem {
+              0% { transform: translateX(0); }
+              100% { transform: translateX(-50%); }
+            }
+            .ticker-massagem { animation: ticker-massagem 18s linear infinite; }
+            .ticker-massagem:hover { animation-play-state: paused; }
+          `}</style>
+          <div className="ticker-massagem" style={{ display: "inline-flex", gap: "48px", width: "max-content" }}>
+            {[...Array(8)].flatMap((_, i) => [
+              <span key={`t${i}`} style={{ fontWeight: 700, fontSize: 13, color: "#fff", letterSpacing: 2, textTransform: "uppercase" }}>Exclusivo para Mulheres</span>,
+              <span key={`d${i}`} style={{ color: "rgba(255,255,255,0.5)", fontSize: 16 }}>✦</span>,
+            ])}
+          </div>
+        </div>
+
         {/* O que é */}
         <section className="py-14 bg-white">
           <div className="mx-auto w-full px-4" style={{ maxWidth: 1168 }}>
