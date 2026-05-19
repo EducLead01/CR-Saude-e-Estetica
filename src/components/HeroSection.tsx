@@ -149,17 +149,6 @@ export function HeroSection() {
                   />
                 </div>
 
-                {/* Hero photo — bottom right */}
-                <div className="absolute bottom-0 right-0 h-full flex items-end">
-                  <Image
-                    src={slide.image}
-                    alt={slide.imageAlt}
-                    width={slide.imageWidth}
-                    height={slide.imageHeight}
-                    className="object-contain object-bottom max-h-full w-auto"
-                    priority={slide.id === 1}
-                  />
-                </div>
               </div>
 
               {/* Mobile: coral bg photo strip */}
