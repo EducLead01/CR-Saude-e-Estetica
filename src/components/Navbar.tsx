@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { Img as Image } from "@/components/Img";
 import { Menu, X, Search, ChevronDown } from "lucide-react";
 
 export function Navbar() {
@@ -61,17 +60,6 @@ export function Navbar() {
             <Menu size={22} style={{ color: "rgb(78,75,74)" }} />
           )}
         </button>
-
-        {/* Logo */}
-        <a href="/" className="flex-shrink-0 md:mr-8">
-          <Image
-            src="/images/logo.webp"
-            alt="Onodera"
-            width={175}
-            height={48}
-            priority
-          />
-        </a>
 
         {/* Desktop nav links */}
         <nav className="hidden md:flex items-center gap-7 flex-1">
