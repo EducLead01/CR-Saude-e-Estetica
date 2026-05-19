@@ -9,29 +9,20 @@ type FAQItem = {
 
 const FAQ_ITEMS: FAQItem[] = [
   {
-    question: "Quais tratamentos faciais a Onodera oferece?",
-    answer:
-      "A Onodera oferece uma ampla gama de tratamentos faciais, incluindo limpeza de pele, bioestimulador de colágeno, toxina botulínica (Botox), criofrequência facial, Morpheus Pro Facial, HIFU, exossomos e muito mais. Todos realizados por profissionais especializados.",
+    question: "Pergunta 1",
+    answer: "Resposta 1",
   },
   {
-    question: "Como funciona o agendamento na Onodera?",
-    answer:
-      "Você pode agendar sua consulta pelo nosso site, pelo telefone ou diretamente na unidade mais próxima. O agendamento online está disponível 24 horas por dia, 7 dias por semana.",
+    question: "Pergunta 2",
+    answer: "Resposta 2",
   },
   {
-    question: "A Onodera tem unidades em todo o Brasil?",
-    answer:
-      "Sim! Contamos com mais de 50 clínicas distribuídas pelo Brasil, presentes nos principais estados. Use nossa ferramenta de busca para encontrar a unidade mais próxima de você.",
+    question: "Pergunta 3",
+    answer: "Resposta 3",
   },
   {
-    question: "Os tratamentos são seguros?",
-    answer:
-      "Todos os nossos tratamentos são realizados por profissionais qualificados e certificados, com equipamentos de última geração, seguindo rigorosos protocolos de segurança e higiene.",
-  },
-  {
-    question: "Posso fazer mais de um tratamento na mesma sessão?",
-    answer:
-      "Sim, em muitos casos é possível combinar tratamentos. Consulte um de nossos especialistas para um plano personalizado que atenda às suas necessidades e objetivos.",
+    question: "Pergunta 4",
+    answer: "Resposta 4",
   },
 ];
 
