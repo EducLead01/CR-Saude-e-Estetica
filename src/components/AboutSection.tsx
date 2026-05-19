@@ -82,29 +82,6 @@ export function AboutSection() {
           ))}
         </Swiper>
 
-        {/* Footer */}
-        <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
-          <div className="flex-1">
-            <h3 className="text-2xl font-semibold text-[rgb(78,75,74)] mb-4">
-              Transformando vidas desde 1981
-            </h3>
-            <p className="text-base text-[rgb(118,113,112)] leading-[1.7] max-w-2xl">
-              Começando como um pequeno negócio familiar e crescendo para se
-              tornar referência nacional em estética, a CR Saúde e Estética carrega décadas
-              de dedicação ao cuidado com o corpo e a autoestima das pessoas.
-              Nossa missão é proporcionar bem-estar real, com tecnologia de ponta
-              e profissionais apaixonados pelo que fazem.
-            </p>
-          </div>
-          <div className="shrink-0">
-            <a
-              href="#"
-              className="inline-flex items-center justify-content-center px-6 py-3 rounded-full border border-[rgb(229,67,96)] text-[rgb(229,67,96)] text-sm font-medium transition-colors hover:bg-[rgb(229,67,96)] hover:text-white whitespace-nowrap"
-            >
-              Saiba mais sobre a CR Saúde e Estética
-            </a>
-          </div>
-        </div>
       </div>
     </section>
   );
