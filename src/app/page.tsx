@@ -7,8 +7,6 @@ import { BannerSection } from "@/components/BannerSection";
 import { AboutSection } from "@/components/AboutSection";
 import { NewsletterSection } from "@/components/NewsletterSection";
 import { FAQSection } from "@/components/FAQSection";
-import { Footer } from "@/components/Footer";
-
 export default function Home() {
   return (
     <>
@@ -23,7 +21,6 @@ export default function Home() {
         <NewsletterSection />
         <FAQSection />
       </main>
-      <Footer />
     </>
   );
 }
