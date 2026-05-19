@@ -74,7 +74,7 @@ export function TreatmentsSection() {
             className="mt-1 font-medium leading-tight"
             style={{ fontSize: 32, color: "rgb(78,75,74)" }}
           >
-            Tratamentos mais procurados na Onodera
+            Tratamentos mais procurados na CR Estética e Saúde
           </h2>
         </div>
 
