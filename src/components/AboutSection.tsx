@@ -44,10 +44,6 @@ export function AboutSection() {
           <h2 className="text-4xl font-semibold text-[rgb(78,75,74)] mt-2 mb-2">
             Servir à sua beleza é o nosso propósito
           </h2>
-          <p className="text-base text-[rgb(118,113,112)] max-w-[600px] mx-auto">
-            Acreditamos que beleza e autoestima andam juntas. Desde 1981
-            transformamos vidas através da estética.
-          </p>
         </div>
 
         {/* Lifestyle cards swiper */}
