@@ -94,7 +94,7 @@ export function AboutSection() {
             </h3>
             <p className="text-base text-[rgb(118,113,112)] leading-[1.7] max-w-2xl">
               Começando como um pequeno negócio familiar e crescendo para se
-              tornar referência nacional em estética, a Onodera carrega décadas
+              tornar referência nacional em estética, a CR Saúde e Estética carrega décadas
               de dedicação ao cuidado com o corpo e a autoestima das pessoas.
               Nossa missão é proporcionar bem-estar real, com tecnologia de ponta
               e profissionais apaixonados pelo que fazem.
@@ -105,7 +105,7 @@ export function AboutSection() {
               href="#"
               className="inline-flex items-center justify-content-center px-6 py-3 rounded-full border border-[rgb(229,67,96)] text-[rgb(229,67,96)] text-sm font-medium transition-colors hover:bg-[rgb(229,67,96)] hover:text-white whitespace-nowrap"
             >
-              Saiba mais sobre a Onodera
+              Saiba mais sobre a CR Saúde e Estética
             </a>
           </div>
         </div>

@@ -11,7 +11,7 @@ const stats = [
   {
     number: "Mais de 50 clínicas",
     description:
-      "Distribuídas pelo Brasil para você ter sempre uma Onodera perto",
+      "Distribuídas pelo Brasil para você ter sempre uma CR Saúde e Estética perto",
   },
 ];
 
@@ -20,7 +20,7 @@ export function StatsSection() {
     <section
       className="bg-white"
       style={{ padding: "40px 0 64px 0" }}
-      aria-label="Números Onodera"
+      aria-label="Números CR Saúde e Estética"
     >
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-0">

@@ -38,7 +38,7 @@ export function LocationsSection() {
               className="mb-3 text-3xl font-semibold leading-tight"
               style={{ color: "rgb(78,75,74)" }}
             >
-              Sempre há uma Onodera próxima a você!
+              Sempre há uma CR Saúde e Estética próxima a você!
             </h2>
             <p
               className="mb-8 text-base"
@@ -85,7 +85,7 @@ export function LocationsSection() {
           <div className="mx-auto w-full max-w-[500px] lg:mx-0 lg:shrink-0">
             <Image
               src="/images/mapa-brasil.webp"
-              alt="Mapa do Brasil com localização das clínicas Onodera"
+              alt="Mapa do Brasil com localização das clínicas CR Saúde e Estética"
               width={538}
               height={610}
               className="h-auto w-full"

@@ -13,18 +13,18 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     title: "Renascimento da minha pele",
-    text: "Sinto-me imensamente grata por ter encontrado o tratamento certo na Onodera. Em poucos meses, minha pele se transformou completamente.",
-    author: "Cliente Onodera",
+    text: "Sinto-me imensamente grata por ter encontrado o tratamento certo na CR Saúde e Estética. Em poucos meses, minha pele se transformou completamente.",
+    author: "Cliente CR Saúde e Estética",
   },
   {
     title: "Autoestima renovada",
-    text: "Nunca imaginei que um tratamento estético pudesse mudar tanto minha vida. A equipe Onodera é atenciosa, profissional e realmente se importa com cada paciente.",
-    author: "Cliente Onodera",
+    text: "Nunca imaginei que um tratamento estético pudesse mudar tanto minha vida. A equipe CR Saúde e Estética é atenciosa, profissional e realmente se importa com cada paciente.",
+    author: "Cliente CR Saúde e Estética",
   },
   {
     title: "Resultado além das expectativas",
-    text: "Após anos tentando resolver meus problemas de pele sem sucesso, a Onodera finalmente me deu o resultado que eu sempre sonhei. Recomendo a todas as amigas!",
-    author: "Cliente Onodera",
+    text: "Após anos tentando resolver meus problemas de pele sem sucesso, a CR Saúde e Estética finalmente me deu o resultado que eu sempre sonhei. Recomendo a todas as amigas!",
+    author: "Cliente CR Saúde e Estética",
   },
 ];
 
@@ -88,7 +88,7 @@ export function TestimonialsSection() {
           <div className="flex justify-center lg:justify-end">
             <Image
               src="/images/depoimento.webp"
-              alt="Depoimento Onodera"
+              alt="Depoimento CR Saúde e Estética"
               width={1074}
               height={1047}
               className="w-full max-w-[450px] aspect-square object-cover"

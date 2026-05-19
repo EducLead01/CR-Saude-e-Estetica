@@ -7,7 +7,7 @@ export function BannerSection() {
         <a href="#" aria-label="Tratamento grátis — saiba mais">
           <Image
             src="/images/banner-tratamento-gratis.webp"
-            alt="Ganhe um tratamento grátis na Onodera"
+            alt="Ganhe um tratamento grátis na CR Saúde e Estética"
             width={1132}
             height={292}
             className="w-full"

@@ -89,7 +89,7 @@ const FOOTER_LINKS = [
   {
     title: "A Empresa",
     links: [
-      { label: "Sobre a Onodera", href: "#" },
+      { label: "Sobre a CR Saúde e Estética", href: "#" },
       { label: "Trabalhe Conosco", href: "#" },
       { label: "Franquia", href: "#" },
       { label: "Blog", href: "#" },
@@ -134,7 +134,7 @@ export function Footer() {
             <div className="max-w-[320px]">
               <Image
                 src="/images/logo.webp"
-                alt="Onodera Estética"
+                alt="CR Saúde e Estética Estética"
                 width={160}
                 height={48}
                 className="mb-3 brightness-0 invert"
@@ -224,7 +224,7 @@ export function Footer() {
       <div className="border-t border-[rgb(227,227,227)] bg-white py-5">
         <div className="mx-auto w-full max-w-[1168px] px-4">
           <div className="flex flex-col items-start justify-between gap-3 text-[13px] text-[rgb(57,57,57)] sm:flex-row sm:items-center">
-            <p>© 2024 Onodera Estética. Todos os direitos reservados.</p>
+            <p>© 2024 CR Saúde e Estética Estética. Todos os direitos reservados.</p>
             <div className="flex items-center gap-4">
               <a href="#" className="transition-colors hover:text-[rgb(229,67,96)]">
                 Política de Privacidade

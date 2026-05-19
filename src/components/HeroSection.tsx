@@ -22,14 +22,14 @@ type Slide = {
 const slides: Slide[] = [
   {
     id: 1,
-    tag: "Bem-vindo à Onodera",
-    title: "Sua jornada de beleza e bem-estar na Onodera!",
+    tag: "Bem-vindo à CR Saúde e Estética",
+    title: "Sua jornada de beleza e bem-estar na CR Saúde e Estética!",
     subtitle:
-      "Na Onodera, oferecemos uma ampla variedade de tratamentos estéticos personalizados para realçar sua beleza e cuidar do seu bem-estar.",
+      "Na CR Saúde e Estética, oferecemos uma ampla variedade de tratamentos estéticos personalizados para realçar sua beleza e cuidar do seu bem-estar.",
     image: "/images/hero-banner-1.webp",
     imageWidth: 1146,
     imageHeight: 833,
-    imageAlt: "Tratamentos estéticos Onodera",
+    imageAlt: "Tratamentos estéticos CR Saúde e Estética",
   },
   {
     id: 2,
@@ -40,7 +40,7 @@ const slides: Slide[] = [
     image: "/images/hero-banner-2.webp",
     imageWidth: 1146,
     imageHeight: 833,
-    imageAlt: "Especialistas em estética Onodera",
+    imageAlt: "Especialistas em estética CR Saúde e Estética",
   },
 ];
 
