@@ -22,13 +22,6 @@ export function Navbar() {
       >
         <a
           href="#"
-          className="text-sm font-normal transition-opacity hover:opacity-80"
-          style={{ color: "rgb(78,75,74)" }}
-        >
-          Seja um Franqueado
-        </a>
-        <a
-          href="#"
           className="text-sm font-normal text-white transition-opacity hover:opacity-80 px-5 py-1.5"
           style={{
             background: "rgb(229,67,96)",
